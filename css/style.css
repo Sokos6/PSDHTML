@@ -90,3 +90,46 @@ strong {
 	font-weight: bold;
 }
 /*END FONT STYLES*/
+
+/*HEADER*/
+#header-wrap {
+	border-top: 10px solid #4d9543;
+	padding-top: 40px;
+}
+header {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+header h2 a {
+	display: block;
+	text-indent: -999999px;
+	background: url(/images/logo.png) no-repeat;
+	width: 214px;
+	height: 77px;
+	float: left;
+	margin-bottom: 40px;
+}
+#call {
+	float: right;
+	border-right: 1px solid #c8c8c8;
+	padding-right: 25px;
+	margin-top: 20px;
+}
+#call h3 {
+	margin: 0;
+}
+#call h4 {
+	text-align: right;
+	margin: 0;
+}
+nav {
+	clear: both;
+	width: 960px;
+	height: 50px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	background-color: #3b7c33; /* Fallback */
+	border-radius: 30px;
+
+}
