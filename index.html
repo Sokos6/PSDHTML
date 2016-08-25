@@ -6,7 +6,21 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Frequency Dev Test</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!--[if IE]>
+	<script type="text/javascript">
+		(function(){
+					var html5elements = "address|article|aside|audio|canvas|command|datalist|details|dialog|figure|figcaption|footer|header|hgroup|keygen|mark|meter|menu|nav|progress|ruby|section|time|video".split('|');
+					for(var i = 0; i < html5elements.length; i++){
+						document.createElement(html5elements[i]);
+					}
+				}
+		)();
+	</script>
+	<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="js/jquery.slides.min.js"></script>
 </head>
 <body>
 <div id="header-wrap">
@@ -36,9 +50,43 @@
 <!--end header wrap-->
 <div id="container">
 	<div id="slides">
-		slide content
-	</div>
-	<!--end slides-->
+		<div class="slides_container">
+			<script>
+				$(function(){$('#slides').slides({preload: true,generateNextPrev: true,});});
+			</script>
+			<div>
+
+				<img src="images/slide1.png" alt="slide1" />
+
+				<div class="slide-right">
+					<h1 class="slide-heading">Artthatworks 1 dolor sit amet, consectetur adipiscing elit.</h1>
+					<p class="info">Vestibulum a diam lorem. Fusce viverra commodo rhoncus. Nam ipsum magna, faucibus non semper et, vestibulum quis arcu. Nulla in tellus eu nunc cursus scelerisque ac nec nibh.</p>
+					<p><a href="#" class="readmore">read more</a></p>
+				</div>
+			</div>
+			<div>
+
+				<img src="images/slide1.png" alt="slide1" />
+
+				<div class="slide-right">
+					<h1 class="slide-heading">Artthatworks 2 dolor sit amet, consectetur adipiscing elit.</h1>
+					<p class="info">Vestibulum a diam lorem. Fusce viverra commodo rhoncus. Nam ipsum magna, faucibus non semper et, vestibulum quis arcu. Nulla in tellus eu nunc cursus scelerisque ac nec nibh.</p>
+					<p><a href="#" class="readmore">read more</a></p>
+				</div>
+			</div>
+			<div>
+
+				<img src="images/slide1.png" alt="slide1" />
+
+				<div class="slide-right">
+					<h1 class="slide-heading">Artthatworks 3 dolor sit amet, consectetur adipiscing elit.</h1>
+					<p class="info">Vestibulum a diam lorem. Fusce viverra commodo rhoncus. Nam ipsum magna, faucibus non semper et, vestibulum quis arcu. Nulla in tellus eu nunc cursus scelerisque ac nec nibh.</p>
+					<p><a href="#" class="readmore">read more</a></p>
+				</div>
+			</div>
+
+		</div><!-- end slies container -->
+	</div><!-- end slides -->
 	<div id="service">
 		service content
 	</div>
